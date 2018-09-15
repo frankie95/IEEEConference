@@ -1,0 +1,106 @@
+c:\users\ickhlaw_admin\documents\visual studio 2013\Projects\IEEEConference\IEEEConference\bin\IEEEConference.dll.config
+c:\users\ickhlaw_admin\documents\visual studio 2013\Projects\IEEEConference\IEEEConference\bin\IEEEConference.dll
+c:\users\ickhlaw_admin\documents\visual studio 2013\Projects\IEEEConference\IEEEConference\bin\IEEEConference.pdb
+c:\users\ickhlaw_admin\documents\visual studio 2013\Projects\IEEEConference\IEEEConference\bin\Antlr3.Runtime.dll
+c:\users\ickhlaw_admin\documents\visual studio 2013\Projects\IEEEConference\IEEEConference\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\ickhlaw_admin\documents\visual studio 2013\Projects\IEEEConference\IEEEConference\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\ickhlaw_admin\documents\visual studio 2013\Projects\IEEEConference\IEEEConference\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\ickhlaw_admin\documents\visual studio 2013\Projects\IEEEConference\IEEEConference\bin\Microsoft.Owin.dll
+c:\users\ickhlaw_admin\documents\visual studio 2013\Projects\IEEEConference\IEEEConference\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\ickhlaw_admin\documents\visual studio 2013\Projects\IEEEConference\IEEEConference\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\ickhlaw_admin\documents\visual studio 2013\Projects\IEEEConference\IEEEConference\bin\Microsoft.Owin.Security.dll
+c:\users\ickhlaw_admin\documents\visual studio 2013\Projects\IEEEConference\IEEEConference\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\ickhlaw_admin\documents\visual studio 2013\Projects\IEEEConference\IEEEConference\bin\Microsoft.Owin.Security.Google.dll
+c:\users\ickhlaw_admin\documents\visual studio 2013\Projects\IEEEConference\IEEEConference\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\ickhlaw_admin\documents\visual studio 2013\Projects\IEEEConference\IEEEConference\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\ickhlaw_admin\documents\visual studio 2013\Projects\IEEEConference\IEEEConference\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\ickhlaw_admin\documents\visual studio 2013\Projects\IEEEConference\IEEEConference\bin\Microsoft.Web.Infrastructure.dll
+c:\users\ickhlaw_admin\documents\visual studio 2013\Projects\IEEEConference\IEEEConference\bin\Newtonsoft.Json.dll
+c:\users\ickhlaw_admin\documents\visual studio 2013\Projects\IEEEConference\IEEEConference\bin\Owin.dll
+c:\users\ickhlaw_admin\documents\visual studio 2013\Projects\IEEEConference\IEEEConference\bin\System.Web.Helpers.dll
+c:\users\ickhlaw_admin\documents\visual studio 2013\Projects\IEEEConference\IEEEConference\bin\System.Web.Mvc.dll
+c:\users\ickhlaw_admin\documents\visual studio 2013\Projects\IEEEConference\IEEEConference\bin\System.Web.Optimization.dll
+c:\users\ickhlaw_admin\documents\visual studio 2013\Projects\IEEEConference\IEEEConference\bin\System.Web.Razor.dll
+c:\users\ickhlaw_admin\documents\visual studio 2013\Projects\IEEEConference\IEEEConference\bin\System.Web.WebPages.Deployment.dll
+c:\users\ickhlaw_admin\documents\visual studio 2013\Projects\IEEEConference\IEEEConference\bin\System.Web.WebPages.dll
+c:\users\ickhlaw_admin\documents\visual studio 2013\Projects\IEEEConference\IEEEConference\bin\System.Web.WebPages.Razor.dll
+c:\users\ickhlaw_admin\documents\visual studio 2013\Projects\IEEEConference\IEEEConference\bin\WebGrease.dll
+c:\users\ickhlaw_admin\documents\visual studio 2013\Projects\IEEEConference\IEEEConference\bin\System.Web.Helpers.xml
+c:\users\ickhlaw_admin\documents\visual studio 2013\Projects\IEEEConference\IEEEConference\bin\System.Web.Mvc.xml
+c:\users\ickhlaw_admin\documents\visual studio 2013\Projects\IEEEConference\IEEEConference\bin\System.Web.Optimization.xml
+c:\users\ickhlaw_admin\documents\visual studio 2013\Projects\IEEEConference\IEEEConference\bin\System.Web.Razor.xml
+c:\users\ickhlaw_admin\documents\visual studio 2013\Projects\IEEEConference\IEEEConference\bin\System.Web.WebPages.xml
+c:\users\ickhlaw_admin\documents\visual studio 2013\Projects\IEEEConference\IEEEConference\bin\System.Web.WebPages.Deployment.xml
+c:\users\ickhlaw_admin\documents\visual studio 2013\Projects\IEEEConference\IEEEConference\bin\System.Web.WebPages.Razor.xml
+c:\users\ickhlaw_admin\documents\visual studio 2013\Projects\IEEEConference\IEEEConference\bin\Antlr3.Runtime.pdb
+c:\users\ickhlaw_admin\documents\visual studio 2013\Projects\IEEEConference\IEEEConference\bin\Newtonsoft.Json.xml
+c:\users\ickhlaw_admin\documents\visual studio 2013\Projects\IEEEConference\IEEEConference\bin\EntityFramework.xml
+c:\users\ickhlaw_admin\documents\visual studio 2013\Projects\IEEEConference\IEEEConference\bin\EntityFramework.SqlServer.xml
+c:\users\ickhlaw_admin\documents\visual studio 2013\Projects\IEEEConference\IEEEConference\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\ickhlaw_admin\documents\visual studio 2013\Projects\IEEEConference\IEEEConference\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\ickhlaw_admin\documents\visual studio 2013\Projects\IEEEConference\IEEEConference\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\ickhlaw_admin\documents\visual studio 2013\Projects\IEEEConference\IEEEConference\bin\Microsoft.Owin.xml
+c:\users\ickhlaw_admin\documents\visual studio 2013\Projects\IEEEConference\IEEEConference\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\ickhlaw_admin\documents\visual studio 2013\Projects\IEEEConference\IEEEConference\bin\Microsoft.Owin.Security.xml
+c:\users\ickhlaw_admin\documents\visual studio 2013\Projects\IEEEConference\IEEEConference\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\ickhlaw_admin\documents\visual studio 2013\Projects\IEEEConference\IEEEConference\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\ickhlaw_admin\documents\visual studio 2013\Projects\IEEEConference\IEEEConference\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\ickhlaw_admin\documents\visual studio 2013\Projects\IEEEConference\IEEEConference\bin\Microsoft.Owin.Security.Google.xml
+c:\users\ickhlaw_admin\documents\visual studio 2013\Projects\IEEEConference\IEEEConference\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\ickhlaw_admin\documents\visual studio 2013\Projects\IEEEConference\IEEEConference\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\ickhlaw_admin\documents\visual studio 2013\Projects\IEEEConference\IEEEConference\obj\Debug\IEEEConference.csprojResolveAssemblyReference.cache
+c:\users\ickhlaw_admin\documents\visual studio 2013\Projects\IEEEConference\IEEEConference\obj\Debug\IEEEConference.dll
+c:\users\ickhlaw_admin\documents\visual studio 2013\Projects\IEEEConference\IEEEConference\obj\Debug\IEEEConference.pdb
+C:\Users\frank\Desktop\IEEEConference\IEEEConference\obj\Debug\IEEEConference.csprojResolveAssemblyReference.cache
+C:\Users\frank\Desktop\IEEEConference\IEEEConference\obj\Debug\IEEEConference.dll
+C:\Users\frank\Desktop\IEEEConference\IEEEConference\obj\Debug\IEEEConference.pdb
+C:\Users\frank\Desktop\IEEEConference\IEEEConference\bin\IEEEConference.dll.config
+C:\Users\frank\Desktop\IEEEConference\IEEEConference\bin\IEEEConference.dll
+C:\Users\frank\Desktop\IEEEConference\IEEEConference\bin\IEEEConference.pdb
+C:\Users\frank\Desktop\IEEEConference\IEEEConference\bin\Antlr3.Runtime.dll
+C:\Users\frank\Desktop\IEEEConference\IEEEConference\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\frank\Desktop\IEEEConference\IEEEConference\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\frank\Desktop\IEEEConference\IEEEConference\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\frank\Desktop\IEEEConference\IEEEConference\bin\Microsoft.Owin.dll
+C:\Users\frank\Desktop\IEEEConference\IEEEConference\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\frank\Desktop\IEEEConference\IEEEConference\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\frank\Desktop\IEEEConference\IEEEConference\bin\Microsoft.Owin.Security.dll
+C:\Users\frank\Desktop\IEEEConference\IEEEConference\bin\Microsoft.Owin.Security.Facebook.dll
+C:\Users\frank\Desktop\IEEEConference\IEEEConference\bin\Microsoft.Owin.Security.Google.dll
+C:\Users\frank\Desktop\IEEEConference\IEEEConference\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+C:\Users\frank\Desktop\IEEEConference\IEEEConference\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\frank\Desktop\IEEEConference\IEEEConference\bin\Microsoft.Owin.Security.Twitter.dll
+C:\Users\frank\Desktop\IEEEConference\IEEEConference\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\frank\Desktop\IEEEConference\IEEEConference\bin\Newtonsoft.Json.dll
+C:\Users\frank\Desktop\IEEEConference\IEEEConference\bin\Owin.dll
+C:\Users\frank\Desktop\IEEEConference\IEEEConference\bin\System.Web.Helpers.dll
+C:\Users\frank\Desktop\IEEEConference\IEEEConference\bin\System.Web.Mvc.dll
+C:\Users\frank\Desktop\IEEEConference\IEEEConference\bin\System.Web.Optimization.dll
+C:\Users\frank\Desktop\IEEEConference\IEEEConference\bin\System.Web.Razor.dll
+C:\Users\frank\Desktop\IEEEConference\IEEEConference\bin\System.Web.WebPages.Deployment.dll
+C:\Users\frank\Desktop\IEEEConference\IEEEConference\bin\System.Web.WebPages.dll
+C:\Users\frank\Desktop\IEEEConference\IEEEConference\bin\System.Web.WebPages.Razor.dll
+C:\Users\frank\Desktop\IEEEConference\IEEEConference\bin\WebGrease.dll
+C:\Users\frank\Desktop\IEEEConference\IEEEConference\bin\System.Web.Helpers.xml
+C:\Users\frank\Desktop\IEEEConference\IEEEConference\bin\System.Web.Mvc.xml
+C:\Users\frank\Desktop\IEEEConference\IEEEConference\bin\System.Web.Optimization.xml
+C:\Users\frank\Desktop\IEEEConference\IEEEConference\bin\System.Web.Razor.xml
+C:\Users\frank\Desktop\IEEEConference\IEEEConference\bin\System.Web.WebPages.xml
+C:\Users\frank\Desktop\IEEEConference\IEEEConference\bin\System.Web.WebPages.Deployment.xml
+C:\Users\frank\Desktop\IEEEConference\IEEEConference\bin\System.Web.WebPages.Razor.xml
+C:\Users\frank\Desktop\IEEEConference\IEEEConference\bin\Antlr3.Runtime.pdb
+C:\Users\frank\Desktop\IEEEConference\IEEEConference\bin\Newtonsoft.Json.xml
+C:\Users\frank\Desktop\IEEEConference\IEEEConference\bin\EntityFramework.xml
+C:\Users\frank\Desktop\IEEEConference\IEEEConference\bin\EntityFramework.SqlServer.xml
+C:\Users\frank\Desktop\IEEEConference\IEEEConference\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\frank\Desktop\IEEEConference\IEEEConference\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\frank\Desktop\IEEEConference\IEEEConference\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\frank\Desktop\IEEEConference\IEEEConference\bin\Microsoft.Owin.xml
+C:\Users\frank\Desktop\IEEEConference\IEEEConference\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\frank\Desktop\IEEEConference\IEEEConference\bin\Microsoft.Owin.Security.xml
+C:\Users\frank\Desktop\IEEEConference\IEEEConference\bin\Microsoft.Owin.Security.Facebook.xml
+C:\Users\frank\Desktop\IEEEConference\IEEEConference\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\frank\Desktop\IEEEConference\IEEEConference\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\frank\Desktop\IEEEConference\IEEEConference\bin\Microsoft.Owin.Security.Google.xml
+C:\Users\frank\Desktop\IEEEConference\IEEEConference\bin\Microsoft.Owin.Security.Twitter.xml
+C:\Users\frank\Desktop\IEEEConference\IEEEConference\bin\Microsoft.Owin.Security.MicrosoftAccount.xml

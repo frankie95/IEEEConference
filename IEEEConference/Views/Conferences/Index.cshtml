@@ -1,0 +1,61 @@
+﻿@model IEEEConference.Models.ViewModel_ConferenceProfileSearch
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+    @if (Model.UserInformation != null && Model.UserInformation.PermissionEnabled == "Enabled" && Model.UserInformation.PermissionGroup == "Administrator")
+    {
+        <p>
+            @Html.ActionLink("Create new conference", "Create")
+        </p>
+
+        <p>
+            @Html.ActionLink("Manage conferences as system administator", "IndexAdmin")
+        </p>
+    }
+    
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => Model.ViewModel_ConferenceProfiles.First().Confernece.Code)
+        </th>
+
+        <th>
+            @Html.DisplayNameFor(model => Model.ViewModel_ConferenceProfiles.First().Confernece.Category)
+        </th>
+       
+        <th>
+            @Html.DisplayNameFor(model => Model.ViewModel_ConferenceProfiles.First().Confernece.ConferenceYear)
+        </th>
+    </tr>
+
+@foreach (var item in Model.ViewModel_ConferenceProfiles) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Confernece.Code)
+        </td>
+
+        <td>
+            @Html.DisplayFor(modelItem => item.Confernece.Category)
+        </td>
+
+        <td>
+            @Html.DisplayFor(modelItem => item.Confernece.ConferenceYear)
+        </td>
+
+        <td>
+            @Html.ActionLink("Manage Paper","Index","Papers")  |
+            @Html.ActionLink("Manage conference", "Manage", new { id = item.Confernece.ID }) |
+            @Html.ActionLink("Details", "Details", new { id = item.Confernece.ID }) |
+            @if (item.ControlDates.Where(p=>p.ConferenceID==item.Confernece.ID).Count()!=0 && Model.UserInformation.UserAccount!=null)
+            {
+                @Html.ActionLink("Select conference", "Select", new { id = item.Confernece.ID }) 
+            }
+        </td>
+    </tr>
+}
+
+</table>

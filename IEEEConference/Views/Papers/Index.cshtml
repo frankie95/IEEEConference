@@ -1,0 +1,171 @@
+﻿@model IEnumerable<IEEEConference.Models.Paper>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Conference.Code)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.SequenceNumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Code)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Type)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PaperFileName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PaperFilePath)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PaperDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PaperUser)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Remarks)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.StatusTPC)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DateWithdraw)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.UserWithdraw)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CopyrightFileName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CopyrightFilePath)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CopyrightDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CopyrightUser)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Abstract)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Affiliation)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Biography)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CreateDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CreateUser)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EditDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EditUser)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Conference.Code)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.SequenceNumber)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Title)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Code)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Type)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PaperFileName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PaperFilePath)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PaperDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.PaperUser)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Remarks)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.StatusTPC)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DateWithdraw)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.UserWithdraw)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CopyrightFileName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CopyrightFilePath)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CopyrightDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CopyrightUser)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Abstract)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Affiliation)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Biography)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CreateDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CreateUser)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EditDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EditUser)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.ID }) |
+            @Html.ActionLink("Details", "Details", new { id=item.ID }) |
+            @Html.ActionLink("Delete", "Delete", new { id=item.ID })
+        </td>
+    </tr>
+}
+
+</table>

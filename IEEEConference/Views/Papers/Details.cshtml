@@ -1,0 +1,210 @@
+﻿@model IEEEConference.Models.Paper
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Paper</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Conference.Code)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Conference.Code)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.SequenceNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SequenceNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Title)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Code)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Code)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Type)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Type)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PaperFileName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PaperFileName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PaperFilePath)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PaperFilePath)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PaperDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PaperDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PaperUser)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PaperUser)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Remarks)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Remarks)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.StatusTPC)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.StatusTPC)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DateWithdraw)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateWithdraw)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UserWithdraw)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UserWithdraw)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CopyrightFileName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CopyrightFileName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CopyrightFilePath)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CopyrightFilePath)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CopyrightDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CopyrightDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CopyrightUser)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CopyrightUser)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Abstract)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Abstract)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Affiliation)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Affiliation)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Biography)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Biography)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CreateDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CreateDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CreateUser)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CreateUser)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EditDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EditDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EditUser)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EditUser)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

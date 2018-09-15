@@ -1,0 +1,60 @@
+﻿@model IEEEConference.Models.ViewModel_ConferenceProfileSearch
+
+@{
+    ViewBag.Title = "IndexAdmin";
+}
+
+<h2>Index</h2>
+
+
+    <p>
+        @Html.ActionLink("Create new conference", "Create")
+    </p>
+
+
+
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => Model.ViewModel_ConferenceProfiles.First().Confernece.Code)
+        </th>
+
+        <th>
+            @Html.DisplayNameFor(model => Model.ViewModel_ConferenceProfiles.First().Confernece.Category)
+        </th>
+
+        <th>
+            @Html.DisplayNameFor(model => Model.ViewModel_ConferenceProfiles.First().Confernece.ConferenceYear)
+        </th>
+    </tr>
+
+    @foreach (var item in Model.ViewModel_ConferenceProfiles)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Confernece.Code)
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.Confernece.Category)
+            </td>
+
+            <td>
+                @Html.DisplayFor(modelItem => item.Confernece.ConferenceYear)
+            </td>
+
+            <td>
+               
+               
+                @if (item.ControlDates.Where(p => p.ConferenceID == item.Confernece.ID).Count() != 0 )
+                {
+                    @Html.ActionLink("Manage conference", "Manage", new { id = item.Confernece.ID })
+                }
+            </td>
+        </tr>
+    }
+
+</table>
+<div>
+    @Html.ActionLink("Return", "Index")
+</div>

@@ -1,0 +1,175 @@
+﻿@model IEEEConference.Models.ViewModel_Conference
+
+@{
+    ViewBag.Title = "Manage";
+}
+
+<h2>Manage</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<div>
+    <h4>Conference</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => Model.Confernece.Code)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => Model.Confernece.Code)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => Model.Confernece.Category)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => Model.Confernece.Category)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => Model.Confernece.ConferenceYear)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => Model.Confernece.ConferenceYear)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => Model.Confernece.Committees)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => Model.Confernece.Committees)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => Model.Confernece.Venue)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => Model.Confernece.Venue)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => Model.Confernece.City)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => Model.Confernece.City)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => Model.Confernece.Country)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => Model.Confernece.Country)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => Model.Confernece.HomeUrl)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => Model.Confernece.HomeUrl)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => Model.Confernece.Contact)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => Model.Confernece.Contact)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => Model.Confernece.Style)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => Model.Confernece.Style)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => Model.Confernece.PeriodFrom)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => Model.Confernece.PeriodFrom)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => Model.Confernece.PeriodTo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => Model.Confernece.PeriodTo)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => Model.Confernece.RevokeReason)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => Model.Confernece.RevokeReason)
+        </dd>
+
+
+
+
+
+        <dt>
+            @Html.DisplayNameFor(model => Model.NumberOfAcceptedPaper)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => Model.NumberOfAcceptedPaper)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => Model.NumberOfAcceptedPayment)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => Model.NumberOfAcceptedPayment)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => Model.NumberOfSubmittedPaper)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => Model.NumberOfSubmittedPaper)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => Model.NumberOfSubmittedPayment)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => Model.NumberOfSubmittedPayment)
+        </dd>
+    </dl>
+</div>
+
+<div>@Html.ActionLink("Edit", "Edit", new { id = Model.Confernece.ID }) |</div>
+
+<div>@Html.ActionLink("Import committee list", "Committee", new { id = Model.Confernece.ID }) |</div>
+
+<div>@Html.ActionLink("Price item list", "PricesPresetting", new { id = Model.Confernece.ID }) |</div>
+
+<div>@Html.ActionLink("Configure Virtual Payment Client (VPC)", "VPCConfigure", new { id = Model.Confernece.ID }) |</div>
+
+<div>@Html.ActionLink("Upload media", "UploadMedia", new { id = Model.Confernece.ID }) |</div>
+
+<div>@Html.ActionLink("Close conference", "Close", new { id = Model.Confernece.ID }) |</div>
+
+<div>@Html.ActionLink("Delete", "Delete", new { id = Model.Confernece.ID }) |</div>
+
+<div>@Html.ActionLink("Back to Index", "Index")</div>
+@section Scripts {
+    @Scripts.Render("~/bundles/jqueryval")
+}

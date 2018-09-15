@@ -1,0 +1,127 @@
+﻿@model IEEEConference.Models.ViewModel_Conference
+
+
+@{
+    ViewBag.Title = "Select";
+}
+
+<h2>Select</h2>
+
+<div>
+    <h4>Conference</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => Model.Confernece.Code)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => Model.Confernece.Code)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => Model.Confernece.Category)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => Model.Confernece.Category)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => Model.Confernece.ConferenceYear)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => Model.Confernece.ConferenceYear)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => Model.Confernece.Committees)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => Model.Confernece.Committees)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => Model.Confernece.Venue)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => Model.Confernece.Venue)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => Model.Confernece.City)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => Model.Confernece.City)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => Model.Confernece.Country)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => Model.Confernece.Country)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => Model.Confernece.HomeUrl)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => Model.Confernece.HomeUrl)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => Model.Confernece.Contact)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => Model.Confernece.Contact)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => Model.Confernece.Style)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => Model.Confernece.Style)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => Model.Confernece.PeriodFrom)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => Model.Confernece.PeriodFrom)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => Model.Confernece.PeriodTo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => Model.Confernece.PeriodTo)
+        </dd>
+    </dl>
+</div>
+@using (Html.BeginForm())
+{
+    @Html.AntiForgeryToken()
+
+
+    @Html.Hidden("id",Model.Confernece.ID)
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            <input type="submit" name="ctrlBtn" value="Select" class="btn btn-default" />
+        </div>
+    </div>
+
+}
+<p>
+    @Html.ActionLink("Back to Index", "Index")
+</p>
